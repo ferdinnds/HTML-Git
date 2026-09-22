@@ -2,10 +2,117 @@
 <html>
     <head>
         <title>Profil Ferdi</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 40px;
+                background-color: #f2f2f2;
+            }
+            header {
+                text-align: center;
+                background-color: #333;
+                color: white;
+                padding: 25px;
+            }
+            section{
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td{
+                border: 1px solid black;
+                padding: 10 px;
+                text-align: left;
+            }
+            th {
+                background-color: #ddd;
+            }
+            img {
+                width: 250px;
+                display: block;
+                margin: auto;
+            }
+            footer {
+                text-align: center;
+                margin-top: 20px;
+                padding: 15px;
+                background-color: #333;
+                color: white;
+            }
+        </style>
     </head>
     <body>
+        <header>
         <h1>Profil Saya</h1>
-        <p>Halo, nama saya Ferdinandus Surya Aditya Pratama</p>
-        <p>Saya berasal dari Moyudan, Sleman, Yogyakarta</p>
+        <p>My Personal HTML Website</p>
+        </header>
+
+        <section>
+        <h2>Tentang Saya</h2>
+
+        <p style="text-align: left;">
+            Halo, nama saya <b>Ferdinandus Surya Aditya Pratama</b>.
+        </p>
+
+        <p style="text-align: center;">
+            Saya adalah mahasiswa Universitas Sanata Dharma.
+        </p>
+
+        <p style="text-align: right;">
+            Saya senang belajar hal baru.
+        </p>
+        </section>
+
+        <section>
+        <h2>Format Teks</h2>
+        <p>Ini adalah teks <b>tebal</b>.</p>
+        <p>Ini adalah teks <i>miring</i>.</p>
+        <p>Ini adlaah teks <u>bergaris</u>.</p>
+        <p style="color: blue;">
+            Ini adalah teks berwarna biru.
+        </p>
+        </section>
+
+        <section>
+        <h2>Hobi Saya</h2>
+        <ul>
+            <li>Bermain Game</li>
+            <li>Berenang</li>
+            <li>Nongkrong</li>
+        </ul>
+        </section>
+
+        <section>
+            <h2>Foto</h2>
+            <img src="wongkeren.jpg" alt="ferdinnds">
+        </section>
+        <section>
+        <h2>Data Diri</h2>
+        <table border="1">
+            <tr>
+                <th>Informasi</th>
+                <th>Keterangan</th>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td>Ferdinandus Surya Aditya Pratama</td>
+            </tr>
+            <tr>
+                <td>Asal</td>
+                <td>Moyudan, Sleman, Yogyakarta</td>
+            </tr>
+            <tr>
+                <td>Kampus</td>
+                <td>Universitas Sanata Dharma</td>
+            </tr>
+        </table>
+        </section>
+        <footer>
+            <p>&copy; 2026 Ferdinandus Surya Aditya Pratama</p>
+        </footer>
     </body>
 </html>
