@@ -145,12 +145,13 @@ main {
   padding: 0 2rem;
 }
 
+/* Card Section */
 .card-section {
   background-color: var(--bg-card);
   border: 1px solid var(--border-gray);
   border-radius: 12px;
   padding: 2.5rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 4 rem;
   box-shadow: 0 6px 12px var(--shadow-color);
 }
 
@@ -168,18 +169,10 @@ main {
   margin-bottom: 1.2rem;
 }
 
-.text-left {
-  text-align: left;
-}
-.text-center {
-  text-align: center;
-}
-.text-right {
-  text-align: right;
-}
-.highlight-gray {
-  color: #d1d5db;
-  font-weight: bold;
+.text-left {text-align: left;}
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+.highlight-gray {color: #d1d5db;font-weight: bold;
 }
 
 /* Top 5 Songs Section */
@@ -248,8 +241,7 @@ main {
   color: #e5e7eb;
 }
 
-.list-box ul,
-.list-box ol {
+.list-box ul, .list-box ol {
   padding-left: 1.5rem;
   color: var(--text-muted);
 }
